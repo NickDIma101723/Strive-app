@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const homeStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
+    backgroundColor: '#fff',
     paddingHorizontal: 20,
   },
   header: {
@@ -14,12 +14,12 @@ export const homeStyles = StyleSheet.create({
   title: {
     fontSize: 42,
     fontWeight: 'bold',
-    color: '#fff',
+    color: '#0000000',
     marginBottom: 10,
   },
   subtitle: {
     fontSize: 18,
-    color: '#fff',
+    color: '#000000',
     textAlign: 'center',
   },
   content: {
@@ -28,14 +28,14 @@ export const homeStyles = StyleSheet.create({
     gap: 16,
   },
   button: {
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     borderRadius: 12,
     paddingVertical: 16,
     paddingHorizontal: 32,
     alignItems: 'center',
   },
   buttonText: {
-    color: '#0000000',
+    color: '#fff',
     fontSize: 16,
     fontWeight: '600',
   },
