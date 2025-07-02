@@ -1,6 +1,5 @@
-import { Redirect } from 'expo-router';
+import StripeApp from '../StripeApp';
 
 export default function Index() {
-  // Redirect directly to the schedule tab
-  return <Redirect href="/welcome" />;
+  return <StripeApp />;
 }

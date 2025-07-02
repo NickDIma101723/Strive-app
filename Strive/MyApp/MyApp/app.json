@@ -1,27 +1,22 @@
 {
   "expo": {
-    "name": "Strive",
-    "slug": "strive",
+    "name": "MyApp",
+    "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "strive",
+    "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.nik0d.strive",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.nik0d.strive"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
@@ -42,19 +37,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "d1cc2ac5-cedf-4c69-8f67-340abf0dac1c"
-      }
-    },
-    "owner": "nik0d",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/d1cc2ac5-cedf-4c69-8f67-340abf0dac1c"
     }
   }
 }
